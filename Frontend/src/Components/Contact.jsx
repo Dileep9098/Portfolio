@@ -242,7 +242,11 @@ export default function Contact() {
                                                     </div>
                                                 </div>
                                                 </>
-                                                : ""
+                                                :  <><div className="succussMsg1">
+                                                    <div className="succussMsg">
+                                                        <p> <i class="bi bi-x-circle"></i>Something went wrong. Please try again!</p>
+                                                    </div>
+                                                </div>
                                         }
 
                                     </div>
